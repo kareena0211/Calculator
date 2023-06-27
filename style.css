@@ -22,7 +22,7 @@ body{
 }
 
 #display{
-    border:  2px solid firebrick;
+    /* border:  2px solid firebrick; */
     background-color: white;
     height: 40px;
     width: 249px;
@@ -31,7 +31,7 @@ body{
 }
 
 .calculator{
-    border: 2px solid red;
+    border: 2px solid rgb(250,235,215);
     background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
     width: 290px;
     padding: 20px;
@@ -42,7 +42,7 @@ body{
 
 
 #buttons{
-    background-color: pink;
+    /* background-color: pink; */
     height: 250px;
     width: 250px;
     display: grid;
@@ -55,8 +55,8 @@ body{
 
 
 .operator{
-    background-color: black;
-    color: white;
+    background-color: skyblue;
+    color: black;
     font-size: 20px;
     border-radius: 5px; 
 }
@@ -72,30 +72,32 @@ body{
 }
 
 .equal{
-    background-color: black;
-    color: white;
+    background-color: greenyellow;
+    color: black;
     font-size: 20px;
     border-radius: 5px;
 }
 
 .clear{
-    background-color: black;
+    background-color: orange;
     color: white;
     font-size: 20px;
     border-radius: 5px;
 }
 
 .decimal{
-    background-color: black;
+    background-color: gray;
     color: white;
     font-size: 20px;
     border-radius: 5px;
 }
 
 
-.space{
-    background-color: black;
+.cut{
+    background-color: red;
     color: white;
     font-size: 20px;
     border-radius: 5px;
 }
+
+

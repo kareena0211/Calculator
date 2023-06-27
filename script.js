@@ -2,7 +2,7 @@
 const display = document.getElementById("display");
 const buttons = document.getElementById("buttons");
 
-buttons.addEventListener("click", (event) => {
+buttons.addEventListener("click", (event) => { 
   let target = event.target;
 
   if (target.innerHTML === "C") {
