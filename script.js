@@ -2,6 +2,10 @@
 const display = document.getElementById("display");
 const buttons = document.getElementById("buttons");
 
+document.querySelector('.backspace').addEventListener('click', () => {
+  display.value = display.value.slice(0, -1);
+});
+
 buttons.addEventListener("click", (event) => { 
   let target = event.target;
 

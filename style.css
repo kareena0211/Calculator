@@ -93,14 +93,9 @@ body{
 }
 
 
-.cut{
+.backspace{
     background-color: red;
     color: white;
     font-size: 20px;
     border-radius: 5px;
 }
-
-#eq{
-    /* width: 90px; */
-}
-
